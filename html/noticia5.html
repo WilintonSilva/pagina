@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WiliNews - Portal de Noticias</title>
+    <link rel="stylesheet" href="/css/noticia2.css">
+    <link  rel="shortcut icon" href="/imagenes/logo1.ico">
+</head>
+<body>
+    <header class="cabezera">
+        <div class="logo-container">
+            <div class="logo">WN</div>
+            <h1>WiliNews</h1>
+        </div>
+        <div class="date" id="current-date"></div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/html/ambiente.html">Ambiente</a></li>
+            <li><a href="/html/economia.html">Economía</a></li>
+            <li><a href="/html/deportes.html">Deportes</a></li>
+            <li><a href="/html/tecnologia.html">Tecnología</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <article>
+            <h1 class="article-title">Cómo el megapuerto de Chancay que China estrena en Perú puede impactar en la economía de otros países de América Latina</h1>
+            <img src="https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/8b0f/live/884d3a40-a1e5-11ef-8ab9-9192db313061.jpg.webp" 
+                 alt="Científico trabajando en computación cuántica" 
+                 class="article-image">
+            <p class="image-caption">
+                El puerto de Chancay permitirá atracar buques de mayor calado y capacidad de carga.
+            </p>
+            <br />
+            <h4>Será el mayor puerto comercial de Sudamérica.</h4>
+            <p class="article-text">
+                China construye desde hace años un gran puerto en Perú llamado a convertirse en 
+                referencia para toda la región y revolucionar su comercio con los mercados asiáticos. El 
+                complejo portuario de Chancay, unos 70 kilómetros al norte de Lima, se inaugura este 
+                jueves con grandes expectativas de los gobiernos peruano y chino y de los sectores 
+                económicos potencialmente beneficiados. Se trata de un gigantesco proyecto liderado por 
+                Cosco Shipping Company, empresa estatal china dedicada al transporte marítimo, con una 
+                inversión total prevista de US$3.400 millones, para construir un complejo de 15 muelles, 
+                oficinas, servicios logísticos y un túnel de 2 kilómetros de largo para dar salida a la 
+                carga. Ocho años después del inicio de las obras y coincidiendo con la visita del 
+                presidente chino, Xi Jinping, a Lima, este jueves se inaugura la primera fase de una 
+                infraestructura cuya construcción no ha estado exenta de polémica y cuyos efectos se 
+                dejarán sentir más allá de Perú.
+            </p>
+            <p></p>
+            <img src="https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/857b/live/fa0ca5e0-a2e8-11ef-a4fe-a3e9a6c5d640.jpg.webp" alt="" class="article-image">
+            <p class="image-caption">
+                El presidente de China, Xi Jinping, llegó este jueves a Perú para participar en la cumbre de la APEC e inaugurar el puerto de Chancay.
+            </p>
+            <br />
+            <section class="article-section">
+                <h3>¿Por qué es importante?</h3>
+                 <p>"El puerto supone un significativo paso más de la presencia china en América Latina.
+                    Concebido en el marco de la estratégica "Iniciativa de la Franja y la Ruta" que 
+                    lleva años desarrollando para aumentar su presencia e influencia en el mundo, con 
+                    él China aumenta su capacidad para desembarcar sus mercancías en Sudamérica y 
+                    embarcar las que importa de esta región, principalmente minerales como litio y 
+                    cobre y productos agrícolas como la soja. El ministro de Comunicación y Transportes 
+                    de Perú, Raúl Pérez Reyes, dijo que el megapuerto permitirá a su país posicionarse 
+                    "como un hub logístico en toda América Latina". El gobierno peruano calcula que el 
+                    nuevo terminal generará 7.500 empleos directos e indirectos, aunque los críticos 
+                    indican que en otros lugares de América Latina las inversiones chinas han empleado 
+                    más a trabajadores desplazados desde China que a la mano de obra local. Cuestionado 
+                    por defensores del medio ambiente y organizaciones vecinales, el megapuerto promete 
+                    algunas ventajas en tiempo y costos de distribución que lo harán especialmente 
+                    atractivo para los operadores logísticos. De acuerdo con las estimaciones del 
+                    gobierno peruano, su ubicación le permite reducir a 28 los 40 días que en promedio 
+                    tardan ahora los cargueros que transportan por mar mercancías desde Perú a Asia. 
+                    "Antes, los productos que se exportaban desde Sudamérica tenían que subir hacia el 
+                    norte, a puertos como el de Manzanillo, en México, para ser transbordados y enviados 
+                    a China", le explica a BBC Mundo Robert Evan Ellis, del Instituto de Estudios 
+                    Estratégicos del Ejército de Estados Unidos. "Con Chancay se abre una ruta directa y 
+                    más rápida. Es como una ruta de autobús que antes hacía todas las paradas y ahora solo 
+                    para al llegar al destino", añade.
+                </p>
+                <img src="https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/26ce/live/c132a840-a1e5-11ef-8ab9-9192db313061.jpg.webp" alt="" class="article-image">
+                <p class="image-caption">
+                    El gobierno peruano defiende las ventajas para su país de la gran inversión china, pero varios expertos alertan de que se está creando una dependencia.
+                </p>    
+                </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 WiliNews. Todos los derechos reservados.</p>
+        <p>Desarrollado por Wilinton Silva</p>
+    </footer>
+
+    <script>
+        const dateElement = document.getElementById('current-date');
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        dateElement.textContent = new Date().toLocaleDateString('es-ES', options);
+    </script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WiliNews - Portal de Noticias</title>
+    <link rel="stylesheet" href="/css/noticia4.css">
+    <link  rel="shortcut icon" href="/imagenes/logo1.ico">
+</head>
+<body>
+    <header class="cabecera">
+        <div class="logo-container">
+            <div class="logo">WN</div>
+            <h1>WiliNews</h1>
+        </div>
+        <div class="date" id="current-date"></div>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/html/ambiente.html">Ambiente</a></li>
+            <li><a href="/html/economia.html">Economía</a></li>
+            <li><a href="/html/deportes.html">Deportes</a></li>
+            <li><a href="/html/tecnologia.html">Tecnología</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <article>
+            <h1 class="article-title">Naturgy prueba en Canarias una tecnología innovadora</h1>
+            
+            <img src="https://imagenes.esdiario.com/files/image_media_main_desktop/uploads/2024/09/04/66d838a16640b.jpeg" 
+                alt="Científico trabajando en computación cuántica" class="article-image">
+            <p class="image-caption">
+                Sede del ITC en Pozo Izquierdo (Gran Canaria) CEDIDO POR NATURGY 04/9/2024 CEDIDO POR NATURGY
+            </p>
+            <br />
+            
+            <p class="article-text">
+                Naturgy, la multinacional energética española, ha dado un paso significativo hacia la consolidación
+                del hidrógeno verde como un vector energético esencial para el futuro. En una reciente colaboración
+                anunciada con el Instituto Tecnológico de Canarias (ITC), ambas entidades se han comprometido a 
+                trabajar juntas para validar una tecnología pionera de electrólisis que promete mejorar la eficiencia
+                y reducir los costos de producción del hidrógeno verde. El proyecto, que se centra en un prototipo
+                experimental en Gran Canaria, busca mejorar la eficiencia y reducir los costes mediante el uso de 
+                materiales más abundantes y adaptables a las energías renovables.
+            </p>
+            <p></p>
+            <img src="https://www.atlanticohoy.com/uploads/s1/28/46/68/1/itc-pozo-izquierdo_4_1000x563.png" 
+                 alt="Motor aeronáutico de Rolls-Royce" 
+                 class="article-image">
+            <p class="image-caption">
+                El Instituto Tecnológico de Canarias se alía con Naturgy y Sungreen para producir hidrógeno verde
+            </p>
+            <br />
+            <section class="article-section">
+                <h3>Un proyecto con visión de futuro</h3>
+                <!-- Contenido de la sección -->
+                 <p>La colaboración, que se materializa en la instalación y prueba de un prototipo experimental 
+                    de electrolizador de 2 kW en Gran Canaria, busca testar y optimizar una tecnología que podría
+                    revolucionar el sector energético. Este prototipo, basado en la innovadora tecnología 'Anion
+                    Exchange Membrane' (AEM) desarrollada por la startup singapurense Sungreen, se presenta como
+                    una alternativa prometedora frente a los sistemas comerciales actuales. El objetivo es comparar
+                    los resultados de este nuevo diseño con los obtenidos por las tecnologías convencionales y, a 
+                    partir de ahí, optimizar su rendimiento.
+                    </p>
+                    <br>
+                    <p>
+                        La tecnología AEM destaca por su capacidad para utilizar materiales menos costosos y más
+                        abundantes en la naturaleza, en contraposición a los metales nobles que son comúnmente 
+                        empleados en los electrolizadores tradicionales. Esto no solo promete una reducción en los
+                        costos de producción, sino también una disminución de la dependencia de recursos agotables,
+                        lo cual es crucial para el desarrollo sostenible. Uno de los puntos más destacados de esta
+                        nueva tecnología es su adaptabilidad a las fluctuaciones inherentes de las fuentes de energía
+                        renovable, como la solar y la eólica. Según Naturgy, la AEM proporciona una flexibilidad y una
+                        capacidad de respuesta superiores, lo que la convierte en una opción idónea para acompañar la 
+                        transición energética hacia un modelo descarbonizado.
+                    </p>
+                    <br>
+                    <p>
+                        Jesús Chapado, responsable del área de Innovación de Naturgy, enfatizó la importancia de este
+                        proyecto dentro de la estrategia de la compañía para facilitar la llegada del hidrógeno verde
+                        al mercado. "Este proyecto es una apuesta de la compañía por facilitar la llegada del hidrógeno
+                        verde e impulsar su desarrollo con costes más reducidos", afirmó Chapado. Además, destacó que
+                        esperan que esta tecnología no solo mejore la eficiencia, sino que también ofrezca una mayor
+                        flexibilidad y autorregulación en la producción del hidrógeno verde.
+                    </p>
+                    <br />
+                    <img src="https://betondelnorte.com/wp-content/uploads/elementor/thumbs/hidrogeno-verde-qupv7srkwg4m1se55q69916f2rjv8o73snoegr01as.jpg" alt="" class="article-image">
+                    <p class="image-caption">
+                        Naturgy y el IT de Canarias lanzan tecnología innovadora
+                    </p>
+                </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 WiliNews. Todos los derechos reservados.</p>
+        <p>Desarrollado por Wilinton Silva</p>
+    </footer>
+
+    <script>
+        const dateElement = document.getElementById('current-date');
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        dateElement.textContent = new Date().toLocaleDateString('es-ES', options);
+    </script>
+</body>
+</html>

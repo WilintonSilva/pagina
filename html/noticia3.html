@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WiliNews - Portal de Noticias</title>
+    <link rel="stylesheet" href="/css/notocia1.css">
+    <link  rel="shortcut icon" href="/imagenes/logo1.ico">
+</head>
+<body>
+    <header class="cabezera">
+        <div class="logo-container">
+            <div class="logo">WN</div>
+            <h1>WiliNews</h1>
+        </div>
+        <div class="date" id="current-date"></div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/html/ambiente.html">Ambiente</a></li>
+            <li><a href="/html/economia.html">Economía</a></li>
+            <li><a href="/html/deportes.html">Deportes</a></li>
+            <li><a href="/html/tecnologia.html">Tecnología</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <article>
+            <h1 class="article-title">La Tierra continuará calentándose y los efectos serán profundos</h1>
+            
+            <img src="https://i0.wp.com/tuguiadeaprendizaje.co/wp-content/uploads/2021/04/Taller-el-cambio-climatico.webp?fit=799%2C500&ssl=1" 
+                 alt="Científico trabajando en computación cuántica" 
+                 class="article-image">
+            <p class="image-caption">
+                Los posibles efectos futuros del cambio climático global incluyen incendios forestales más frecuentes,
+                 períodos más prolongados de sequía en algunas regiones y un aumento en la duración e intensidad de las
+                  tormentas tropicales.
+            </p>
+            <br />
+            
+            <p class="article-text">
+                El cambio climático global no es un problema futuro. Los cambios en el clima de la Tierra provocados
+                por el aumento de las emisiones humanas de gases de efecto invernadero que atrapan el calor ya están
+                teniendo efectos generalizados en el medio ambiente: los glaciares y las capas de hielo se están 
+                reduciendo, el hielo de los ríos y lagos se está rompiendo antes, los rangos geográficos de plantas
+                y animales están cambiando y las plantas y los árboles florecen antes.
+            </p>
+            <p></p>
+            <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/B3GGRWFRYFA7JIZYZWYS3GEXOY.jpg" alt="Motor aeronáutico de Rolls-Royce" class="article-image">
+            <p class="image-caption">
+                Los científicos predicen que continuarán los aumentos de la temperatura global debido a los gases
+                 de efecto invernadero producidos por el hombre. Los daños causados ​​por el clima severo también 
+                 aumentarán e intensificarán.
+            </p>
+            <br />
+            <section class="article-section">
+                <h3>Los costos netos de los daños del cambio climático sean significativos y aumenten con el tiempo</h3>
+                <!-- Contenido de la sección -->
+                 <p>Los efectos que los científicos habían predicho durante mucho tiempo como resultado del cambio 
+                    climático global ahora están ocurriendo, como la pérdida de hielo marino, el aumento acelerado
+                    del nivel del mar y olas de calor más largas e intensas. Algunos cambios (como sequías, incendios
+                    forestales y lluvias extremas) están ocurriendo más rápido de lo que los científicos evaluaron
+                    previamente. De hecho, según el Grupo Intergubernamental de Expertos sobre el Cambio Climático
+                    (IPCC, por sus siglas en inglés), el organismo de las Naciones Unidas establecido para evaluar
+                    la ciencia relacionada con el cambio climático, los seres humanos modernos nunca antes habían
+                    visto los cambios observados en nuestro clima global, y algunos de estos cambios son irreversibles
+                    en los próximos cientos o miles de años.
+                    </p>
+                    <br>
+                    <p>
+                        Un problema ha sido la necesidad de transferir información cuántica entre chips de forma 
+                        rápida y fiable: la información se degrada y se introducen errores. Pero el equipo del profesor
+                        Hensinger ha logrado un avance, publicado en la revista Nature Communications, que puede 
+                        haber superado ese obstáculo. El equipo ha desarrollado un sistema capaz de transportar
+                        información de un chip a otro con una fiabilidad de 99,999993% a velocidades récord. Según los
+                        investigadores, esto demuestra que, en principio, los chips podrían unirse para crear un 
+                        ordenador cuántico más potente.
+                    </p>
+                    <br>
+                    <p>
+                        Los científicos confían mucho en que las temperaturas globales seguirán aumentando durante muchas
+                        décadas, principalmente debido a los gases de efecto invernadero producidos por las actividades
+                        humanas. El sexto informe de evaluación del IPCC, publicado en 2021, encontró que las emisiones
+                        humanas de gases que atrapan el calor ya han calentado el clima en casi 2 grados Fahrenheit 
+                        (1,1 grados Celsius) desde la época preindustrial (a partir de 1750).1 Se espera que la temperatura
+                        media mundial alcance o supere los 1,5 grados C (alrededor de 3 grados F) en las próximas décadas. 
+                        Estos cambios afectarán a todas las regiones de la Tierra.
+                    </p>
+                    <br />
+                    <img src="https://www.ecoportal.net/wp-content/uploads/2018/05/cambio-climatico-rdn.jpg" alt="" class="article-image">
+                    <p class="image-caption">
+                        principal actividad humana que más contribuye al deterioro del planeta tierra
+                    </p>
+                </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 WiliNews. Todos los derechos reservados.</p>
+        <p>Desarrollado por Wilinton Silva</p>
+    </footer>
+
+    <script>
+        const dateElement = document.getElementById('current-date');
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        dateElement.textContent = new Date().toLocaleDateString('es-ES', options);
+    </script>
+</body>
+</html>

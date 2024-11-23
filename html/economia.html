@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WiliNews - Portal de Noticias</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link  rel="shortcut icon" href="/imagenes/logo1.ico">
+</head>
+<body>
+    <header class="cabecera">
+        <div class="logo-container">
+            <div class="logo">WN</div>
+            <h1>WiliNews</h1>
+        </div>
+        <div class="date" id="current-date"></div>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/html/ambiente.html">Ambiente</a></li>
+            <li><a href="/html/economia.html">Economía</a></li>
+            <li><a href="/html/deportes.html">Deportes</a></li>
+            <li><a href="/html/tecnologia.html">Tecnología</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="news-grid">
+             <!-- Noticia 5 -->
+            <article class="news-card">
+                <div class="news-image"><img src="https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/e5dd/live/44e05530-a1e5-11ef-a4fe-a3e9a6c5d640.jpg.webp" alt="" class="imagen"></div>
+                <div class="news-content">
+                    <h2 class="news-title">megapuerto de Chancay que China estrena en Perú</h2>
+                    <p class="news-excerpt">Cómo el megapuerto de Chancay que China estrena en Perú puede impactar en la economía de otros países de América Latina</p>
+                    <a href="/html/noticia5.html">
+                        <button class="btn-17">
+                            <span class="text-container">
+                            <span class="text">Leer más</span>
+                            </span>
+                        </button>
+                    </a>
+                </div>
+            </article>
+            <!-- Noticia 6 -->
+            <article class="news-card">
+                <div class="news-image"><img src="/imagenes/noticia6.jpeg" alt="" class="imagen"></div>
+                <div class="news-content">
+                    <h2 class="news-title">Desarrollo Económico</h2>
+                    <p class="news-excerpt">Nuevas políticas impulsan el crecimiento económico regional</p>
+                    <a href="/html/noticia6.html">
+                        <button class="btn-17">
+                            <span class="text-container">
+                            <span class="text">Leer más</span>
+                            </span>
+                        </button>
+                    </a>
+                </div>
+            </article>
+
+        </section>
+
+        <aside>
+            <div class="ad-space">
+                <a href="https://www.essilor.com/es-es/productos/varilux/">
+                    <img src="https://cdn.acuityplatform.com/rtb/2024/10/BP_1671614/VRLX_PBYOPIA_SKIN_DESKTOP_160x600_SP_Lifting_2.png" alt="" class="publicidad">
+                </a>    
+                </div>
+            <div class="ad-space">
+                <a href="https://www.bancodeoccidente.com.co/creatucuentaahorros/accounttype?utm_source=mth+ceet&utm_medium=cpm&utm_campaign=Mth+campana+7&utm_content=mathilde+banner">        
+                    <img src="https://ftp.mathilde-ads.com/11-570715f0e447a0a2c2a3a5040bbac6b2.gif" alt="" class="publicidad">
+                </a>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 WiliNews. Todos los derechos reservados.</p>
+        <p>Desarrollado por Wilinton Silva</p>
+    </footer>
+
+    <script>
+        // Mostrar la fecha actual
+        const dateElement = document.getElementById('current-date');
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        dateElement.textContent = new Date().toLocaleDateString('es-ES', options);
+    </script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WiliNews - Portal de Noticias</title>
+    <link rel="stylesheet" href="/css/notocia1.css">
+    <link  rel="shortcut icon" href="/imagenes/logo1.ico">
+</head>
+<body>
+    <header class="cabezera">
+        <div class="logo-container">
+            <div class="logo">WN</div>
+            <h1>WiliNews</h1>
+        </div>
+        <div class="date" id="current-date"></div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/html/ambiente.html">Ambiente</a></li>
+            <li><a href="/html/economia.html">Economía</a></li>
+            <li><a href="/html/deportes.html">Deportes</a></li>
+            <li><a href="/html/tecnologia.html">Tecnología</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <article>
+            <h1 class="article-title">El avance cuántico que podría revolucionar la computación</h1>
+            
+            <img src="https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/121A4/production/_128584147_winni1.jpg.webp" 
+                 alt="Científico trabajando en computación cuántica" 
+                 class="article-image">
+            <p class="image-caption">
+                Hace 20 años, otros científicos dijeron a Winfried Hensinger que desarrollar un ordenador 
+                cuántico potente era imposible. Ahora ha fabricado el sistema que cree que demostrará que 
+                estaban equivocados.
+            </p>
+            <br />
+            <p class="article-text">
+                <strong>Los científicos han dado un paso más hacia la fabricación de ordenadores 
+                cuánticos multitarea, más potentes que los superordenadores más avanzados de la actualidad.</strong>
+            </p>
+
+            <p class="article-text">
+                Los ordenadores cuánticos aprovechan las extrañas cualidades de las partículas subatómicas.
+                Las llamadas partículas cuánticas pueden estar en dos lugares al mismo tiempo y también extrañamente 
+                conectadas, aunque las separen millones de kilómetros. Un equipo de la Universidad de Sussex transfirió 
+                información cuántica entre chips de ordenador a una velocidad y con una precisión récord.
+            </p>
+            <p></p>
+            <img src="https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/1425E/production/_128562528_06c57805-b2cd-4e89-8475-c3e2b1c1bf3c.png.webp" alt="Motor aeronáutico de Rolls-Royce"  class="article-image">
+            <p class="image-caption">
+                Rolls-Royce está invirtiendo en la investigación de la computación cuántica para ver 
+                si puede acelerar <br /> el proceso de diseño de sus motores aeronáuticos.
+            </p>
+            <br />
+            <section class="article-section">
+                <h3>En dos lugares a la vez</h3>
+                <!-- Contenido de la sección -->
+                 <p>En la actualidad, los ordenadores resuelven los problemas de forma lineal, un cálculo
+                     cada vez.o cuántico, las partículas pueden estar en dos lugares al mismo tiempo y los 
+                     investigadores quieren aprovechar esta propiedad para desarrollar ordenadores capaces de 
+                     realizar múltiples cálculos en simultáneo.Las partículas cuánticas también pueden 
+                     encontrarse a millones de kilómetros de distancia y estar extrañamente conectadas, 
+                     reflejando las acciones de las demás de forma instantánea. De nuevo, esto podría utilizarse
+                      para desarrollar ordenadores más potentes.
+                    </p>
+                    <p>
+                        Un problema ha sido la necesidad de transferir información cuántica entre chips de forma 
+                        rápida y fiable: la información se degrada y se introducen errores. Pero el equipo del profesor
+                        Hensinger ha logrado un avance, publicado en la revista Nature Communications, que puede 
+                        haber superado ese obstáculo. El equipo ha desarrollado un sistema capaz de transportar
+                        información de un chip a otro con una fiabilidad de 99,999993% a velocidades récord. Según los
+                        investigadores, esto demuestra que, en principio, los chips podrían unirse para crear un 
+                        ordenador cuántico más potente.
+                    </p>
+                    <p>
+                        El profesor Michael Cuthbert, director del recién creado Centro Nacional de Computación Cuántica
+                        de Didcot (Oxfordshire) e independiente del grupo de investigación de Sussex, calificó el avance
+                        como "un paso realmente importante". No obstante, precisó que es necesario seguir trabajando 
+                        para desarrollar sistemas prácticos. "Para construir el tipo de ordenador cuántico que se 
+                        necesitará en el futuro, hay que empezar conectando chips del tamaño de la uña del pulgar hasta
+                        conseguir algo del tamaño de un plato. El grupo de Sussex ha demostrado que se puede conseguir
+                        la estabilidad y velocidad necesarias para dar ese paso". "Pero luego se necesita un mecanismo
+                        para conectar estos platos y escalar una máquina, potencialmente tan grande como un campo de
+                        fútbol, con el fin de realizar cálculos realistas y útiles, y la tecnología de comunicaciones
+                        para esa escala aún no está disponible".
+                    </p>
+                    <br />
+                    <img src="https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/EEFE/production/_128528116_quantum_entanglement_illustration-1.jpg.webp" alt="" class="article-image">
+                    <p class="image-caption">Los ordenadores cuánticos aprovechan dos extrañas propiedades
+                         de las partículas a escala muy <br/> pequeña: pueden estar en dos lugares al mismo tiempo
+                          y estar extrañamente conectadas aunque <br /> estén a millones de kilómetros de distancia.
+                    </p>
+                </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 WiliNews. Todos los derechos reservados.</p>
+        <p>Desarrollado por Wilinton Silva</p>
+    </footer>
+
+    <script>
+        const dateElement = document.getElementById('current-date');
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        dateElement.textContent = new Date().toLocaleDateString('es-ES', options);
+    </script>
+</body>
+</html>

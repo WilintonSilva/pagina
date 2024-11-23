@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WiliNews - Portal de Noticias</title>
+    <link rel="stylesheet" href="/css/noticia2.css">
+    <link  rel="shortcut icon" href="/imagenes/logo1.ico">
+</head>
+<body>
+    <header class="cabezera">
+        <div class="logo-container">
+            <div class="logo">WN</div>
+            <h1>WiliNews</h1>
+        </div>
+        <div class="date" id="current-date"></div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/html/ambiente.html">Ambiente</a></li>
+            <li><a href="/html/economia.html">Economía</a></li>
+            <li><a href="/html/deportes.html">Deportes</a></li>
+            <li><a href="/html/tecnologia.html">Tecnología</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <article>
+            <h1 class="article-title">Selección Colombia: James Rodríguez y Luis Díaz lideran lista de convocados para los partidos contra Uruguay y Ecuador; hay tres sorpresas</h1>
+            <img src="https://www.elfutbolero.com.co/image/elfutbolerocomco/james-rodriguez-y-luis-diaz-foto-tomada-de-phanters-afp-luis-diaz-1720667009-mq.webp" 
+                 alt="Científico trabajando en computación cuántica" 
+                 class="article-image">
+            <p class="image-caption">
+                James Rodríguez y Luis Díaz lideran lista de convocados para los partidos de la 
+                selección Colombia
+            </p>
+            <br />
+            <p class="article-text">
+                Colombia es segunda en la tabla de posiciones con 19 puntos, escoltando a Argentina que tiene 23 unidades.
+                El juego contra los uruguayos será el 15 de noviembre en Montevideo y el 19 del mismo mes recibirá a Ecuador
+                en el estadio Roberto Meléndez de Barranquilla. Los uruguayos, bajo el mando del argentino, Marcelo Bielsa,
+                vienen de perder 1-0 contra Perú y de empatar en casa 0-0 con los ecuatorianos. Colombia cayó 1-0 con Bolivia
+                en El Alto, a 4.150 metros de altura, pero en la capital del Atlántico goleó 4-0 a Chile. Los nuevos en la lista
+                son: Sebastián Gómez, Carlos Gómez y regresan a la Selección Rafael Santos Borré , David Ospina y Gustavo Puerta. 
+            </p>
+            <p></p>
+            <img src="https://imagenes.eltiempo.com/files/image_652_366/files/fp/uploads/2022/01/16/61e4c219998c4.r_d.1560-538.jpeg" 
+                 alt="Motor aeronáutico de Rolls-Royce" 
+                 class="article-image">
+            <p class="image-caption">
+                Juan Fernando Quintero celebra gol con Colombia.
+            </p>
+            <br />
+            <section class="article-section">
+                <h3>Este es el listado oficial de los 22 jugadores llamados por Néstor Lorenzo</h3>
+                <!-- Contenido de la sección -->
+                 <p>"La Selección se concentrará en Buenos Aires, Argentina, desde el 8 hasta el
+                     14 de noviembre, día en el que viajarán <br /> a Montevideo para enfrentar a su primer
+                      rival", dice el comunicado oficial.
+                    </p>
+                    <ul class="listado">
+                        <li>Álvaro Montero – Millonarios FC – COL</li>
+                        <li>Camilo Vargas – Atlas FC – MÉX</li>
+                        <li>Carlos Cuesta – K.R.C. Genk – BÉL</li>
+                        <li>Carlos Gómez – Stade Rennais FC – FRA</li>
+                        <li>Cristian Borja – América MX – MÉX</li>
+                        <li>Dávinson Sánchez – Galatasaray S.K. – TUR</li>
+                        <li>Daniel Muñoz – Crystal Palace – ING</li>
+                        <li>David Ospina – Atlético Nacional – COL</li>
+                        <li>Gustavo Puerta – Hull City – ING</li>
+                        <li>James Rodríguez – Rayo Vallecano – ESP</li>
+                        <li>Jhon Arias – Fluminense – BRA</li>
+                        <li>Jhon Córdoba – F.C. Krasnodar – RUS</li>
+                        <li>Jhon Duran – Aston Villa F.C. – ING</li>
+                        <li>Jhon Lucumí – Bologna F. C. (ITA)</li>
+                        <li>Johan Mojica – R. C. D. Mallorca (ESP)</li>
+                        <li>Jorge Carrascal – F. C. Dinamo (RUS)</li>
+                        <li>Juan Camilo Portilla – C.A. Talleres (ARG)</li>
+                        <li>Juan David Cabal – Juventus (ITA)</li>
+                        <li>Juan Fernando Quintero – Racing Club (ARG)</li>
+                        <li>Kevin Castaño – F. C. Krasnodar (RUS)</li>
+                        <li>Luis Diaz – Liverpool (ING)</li>
+                        <li>Matheus Uribe – Al-Sadd S. C. (QAT)</li>
+                        <li>Rafael Santos Borré – Internacional (BRA)</li>
+                        <li>Richard Ríos – Palmeiras (BRA)</li>
+                        <li>Santiago Arias – E. C. Bahía (BRA)</li>
+                        <li>Sebastian Gómez – Coritiba F.C (BRA)</li>
+                        <li>Yerry Mina – Cagliari Calcio (ITA)</li>
+                      </ul>
+                </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 WiliNews. Todos los derechos reservados.</p>
+        <p>Desarrollado por Wilinton Silva</p>
+    </footer>
+
+    <script>
+        const dateElement = document.getElementById('current-date');
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        dateElement.textContent = new Date().toLocaleDateString('es-ES', options);
+    </script>
+</body>
+</html>
